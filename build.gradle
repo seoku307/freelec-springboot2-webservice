@@ -31,7 +31,7 @@ repositories { // repositories : 각종 의존성(라이브러리)들을 어떤 
     jcenter() // jcenter : 최근에 나옴, 간단한 업로드, jcenter업로드(mavenCentral에 자동업로드)
 }
 
-dependencies { // dependencies : 프로젝트 개발에 필요한 의존성 선언
+dependencies { // dependencies : 프로젝트 개발에 필요한 의존성 선언 test
     compile('org.springframework.boot:spring-boot-starter-web')
     testCompile('org.springframework.boot:spring-boot-starter-test')
 
